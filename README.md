@@ -1,0 +1,2 @@
+# OYFTRQOsGyak
+Operációs Rendszerek
