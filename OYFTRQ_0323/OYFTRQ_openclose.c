@@ -7,7 +7,7 @@
 
 #define FAJL "OYFTRQ.txt"
 
-/* Rendszerhiv·sok prototipusa
+/* Rendszerhiv√°sok prototipusa
 size_t write (int, void*, size_t);
 size_t read (int, void*, size_t);
 
@@ -17,7 +17,7 @@ int open(const char *, int, mode_t);
 int close(int);
 */
 
-int main()
+int main(void)
 {
     int fileHandle = open(FAJL, O_RDWR);
     if(fileHandle == -1)
